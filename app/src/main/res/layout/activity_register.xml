@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter your name"
+        android:id="@+id/nam_reg"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter your email/id"
+        android:id="@+id/eml_log"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Enter your password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/pass_log"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/reg_btn"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_txt"
+        android:layout_marginTop="10dp"
+        android:text="Already have an account! log in"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+
+</LinearLayout>
